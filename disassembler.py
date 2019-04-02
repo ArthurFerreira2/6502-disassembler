@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 '''
+
  Simple 6502 disassembler made in python
  only supports the mos version official opcodes
 
