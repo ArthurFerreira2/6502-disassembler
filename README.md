@@ -3,7 +3,7 @@ A simple 6502 disassembler made in Python
 
 Only supports the mos version official opcodes
 
-'''
+~~~
 disassembler.py -h
 usage: disassembler.py [-h] -i <input file> [-o <output file>]
                        [-a <start address>]
@@ -15,4 +15,4 @@ optional arguments:
   -i <input file>     the 6502 binary file to disassemble
   -o <output file>    stdout if not specified
   -a <start address>  in Hexadecimal (FF00 for example)
-'''
+~~~
