@@ -1,7 +1,7 @@
 # 6502-disassembler
 A simple 6502 disassembler made in Python
 
-Only supports the mos version official opcodes
+Only supports the mos official opcodes
 
 ~~~
 disassembler.py -h
