@@ -17,7 +17,7 @@ optional arguments:
   -a <start address>  in Hexadecimal (FF00 for example)
 ~~~
 
-###example :
+### example :
 
 ~~~
 ./disassembler.py -i wozmon.rom -a ff00
