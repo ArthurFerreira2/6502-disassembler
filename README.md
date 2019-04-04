@@ -16,3 +16,16 @@ optional arguments:
   -o <output file>    stdout if not specified
   -a <start address>  in Hexadecimal (FF00 for example)
 ~~~
+example :
+
+~~~
+/disassembler -a ff00 -i wozmon.rom 
+0000    CLD
+0001    CLI
+0003    LDY #$7F
+0006    STY $D012
+0008    LDA #$A7
+000B    STA $D011
+000E    STA $D013
+...
+~~~
