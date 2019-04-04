@@ -4,7 +4,7 @@ A simple 6502 disassembler made in Python
 Only supports the mos official opcodes
 
 ~~~
-disassembler.py -h
+./disassembler.py -h
 usage: disassembler.py [-h] -i <input file> [-o <output file>]
                        [-a <start address>]
 
